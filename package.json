@@ -1,0 +1,22 @@
+{
+  "name": "modern-js-for-dinosaurs",
+  "version": "1.0.0",
+  "description": "Repositório para replicar o conteúdo do post\r https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html\r do Frontend Roadmap, os conteúdos desse tutorial vão permitir automatizar a distribuição dos meus projetos e usar o npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomtolotti/modern-js-for-dinosaurs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomtolotti/modern-js-for-dinosaurs/issues"
+  },
+  "homepage": "https://github.com/thiagomtolotti/modern-js-for-dinosaurs#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}

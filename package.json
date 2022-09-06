@@ -18,5 +18,9 @@
   "homepage": "https://github.com/thiagomtolotti/modern-js-for-dinosaurs#readme",
   "dependencies": {
     "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
 }

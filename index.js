@@ -9,3 +9,5 @@ console.log('teste do webpack.config.js')
 
 let name = "Bob", time = "today"
 console.log(`Hello ${name}, how are ya ${time}?`)
+
+console.log('saddfas')

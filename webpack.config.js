@@ -1,3 +1,5 @@
+const path = require('path');
+
 // webpack.config.js
 module.exports = {
     mode: 'development',
@@ -19,5 +21,11 @@ module.exports = {
                 }
             }
         ]
+    },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, '')
+        },
+        hot: true    
     }
 };

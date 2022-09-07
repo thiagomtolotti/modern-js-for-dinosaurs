@@ -5,13 +5,9 @@
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
     "build": "webpack --progress --mode=production",
     "watch": "webpack --progress --watch",
     "serve": "webpack-dev-server --open"
-=======
-    "serve":"webpack-dev-server --open"
->>>>>>> hot_reload
   },
   "repository": {
     "type": "git",

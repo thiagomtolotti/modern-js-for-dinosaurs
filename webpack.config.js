@@ -6,15 +6,14 @@ module.exports = {
     entry: './index.js',
     output: {
         path: path.resolve(__dirname, "dist"),
-        publicPath: '/dist/',
+        publicPath: '/dist/', //PRECISA dessa propriedade, perdi um tempão pra configurar o live server por isso
         filename: 'main.js',
     },
-    watch: true,
     devServer: {
         static: {
             directory: path.join(__dirname, ''),
         },
         compress: true,
-        port: 9000,
+        port: 9000
     }
 };

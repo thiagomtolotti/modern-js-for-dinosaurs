@@ -5,4 +5,4 @@ console.log("Hello from JavaScript!");
 
 console.log(moment().startOf('day').fromNow())
 
-console.log('teste do webpack.config.js')
+console.log('teste do 7.config.js')
